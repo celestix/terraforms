@@ -1,7 +1,7 @@
 output "vm_sizes" {
   value = {
     small  = "Standard_B2s"
-    medium = "Standard_D2s_v3"
+    medium = "Standard_E2as_v5" # "Standard_D2s_v3"
     large  = "Standard_E4s_v3"
   }
 }
