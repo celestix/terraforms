@@ -1,6 +1,6 @@
 variable "resource_group_location" {
   type        = string
-  default     = "northeurope"
+  default     = "southeastasia"
   description = "Location of the resource group."
 }
 
@@ -13,4 +13,9 @@ variable "resource_group_name_prefix" {
 variable "username" {
   type        = string
   description = "Username"
+}
+
+variable "machine_name" {
+  type        = string
+  description = "Machine Name"
 }

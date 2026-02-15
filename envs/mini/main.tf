@@ -23,7 +23,7 @@ module "networking" {
 
 module "compute" {
   source               = "../../modules/compute"
-  name                 = random_pet.machine_name.id
+  name                 = var.machine_name
   rg_name              = azurerm_resource_group.rg.name
   location             = var.resource_group_location
   size                 = module.constants.vm_sizes.small
